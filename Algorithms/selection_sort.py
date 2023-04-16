@@ -58,9 +58,11 @@ SPACE COMPLEXITY OF THIS APPROACH - ONLY AN IN-ARRAY SWAP IS OCCURING HENCE NO D
 ---------------------------------
 TIME COMPEXITY OF THIS APPROACH :
     1. WORST CASE - Given the list sorted in reverse order, how many checks are made?
-                    The Inner and Outer Loops will have to run n times
+                    The Inner and Outer Loops will have to run n times 
+                    O(n**2)
 
-
+    2. AVERAGE CASE -   Regardless of the order of the list, each item must be checked against avarage case
+                        O(n**2)
 
 """
 
