@@ -31,8 +31,20 @@ TIME COMPLEXITY :
 for (i = 0; i<n-1; i++)
 int min_index = List[i]
     for (j = i +1; j < n; j++)
-        min_index = j
+        if(List[j] < List[min_index])
+            min_index = j
     swap(List[i], List[min_index])
+"""
+
+# THE PSEUDOCODE BREAKDOWN
+"""
+LINE 31 -> Informs the program it must search n-1 times
+LINE 32 -> Sets a temporary minimum value List[i]
+LINE 33 -> An inner loop iterating through n-1 times
+LINE 34 -> Verifies if the value found in position List[j] is smaller than the current min_index if true
+LINE 35 -> The current position of this element is recorded
+LINE 36 -> The value found to be the lowest is swapped with the position i
+I will be incremented and the loop will repeat once more
 
 """
 
