@@ -63,6 +63,10 @@ TIME COMPEXITY OF THIS APPROACH :
 
     2. AVERAGE CASE -   Regardless of the order of the list, each item must be checked against avarage case
                         O(n**2)
+                        
+    3. BEST CASE -  Given a sorted list from smallest to largest how many comarisons must be made? It will still be the same 
+                    the enitire double loops must be done twice
+                    O(n**2) 
 
 """
 
