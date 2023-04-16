@@ -54,6 +54,11 @@ I will be incremented and the loop will repeat once more
 SPACE COMPLEXITY OF THIS APPROACH - ONLY AN IN-ARRAY SWAP IS OCCURING HENCE NO DUPLICATION OF DATA IS BEING MADE
                                     THERE ARE 3 TEMPORARY VARIABLES BUT THEY DON'T DEPEND ON THE LIST SIZE(minIndex, i and j)
                                     The SPACE COMPLEXITY DOESN'T INCREASE
+                                    
+---------------------------------
+TIME COMPEXITY OF THIS APPROACH :
+    1. WORST CASE - Given the list sorted in reverse order, how many checks are made?
+                    The Inner and Outer Loops will have to run n times
 
 
 
