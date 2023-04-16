@@ -13,6 +13,8 @@ A sorting algorithm that uses DIVIDE & CONQUER methodology.
 
 # THE TIME AND SPACE COMPLEXITIES OF QUICKSORT
 """ 
+_____________________________
+
 SPACE COMPLEXIT = O(n)
 _____________________________
 
@@ -20,6 +22,7 @@ TIME COMPLEXITY:
     WORST CASE - O(n**2)
     AVERAGE CASE - O(n log n)
     BEST CASE - O (n log n)
-
+    
+_____________________________
 """
 
