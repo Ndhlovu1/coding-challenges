@@ -26,7 +26,15 @@ TIME COMPLEXITY :
 # TIME COMPLEXITY IS DETERMINED IN RELATION TO THE NUMBER OF TRANSACTIONS DONE. 
 # GIVEN A LIST OF size n, THE COMPILER MUST SEARCH EACH ENTRY IN THE LIST TO IDENTIFY THE SMALLEST ITEM THEN SWAP TO INDEX 0.
 
+# The Pseoudocode
+"""
+for (i = 0; i<n-1; i++)
+int min_index = List[i]
+    for (j = i +1; j < n; j++)
+        min_index = j
+    swap(List[i], List[min_index])
 
+"""
 
 
 
