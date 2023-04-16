@@ -48,5 +48,16 @@ I will be incremented and the loop will repeat once more
 
 """
 
+# PSEUDOCODE TIME AND SPACE COMPLEXITY BREAKDOWN
+"""
+---------------------------------
+SPACE COMPLEXITY OF THIS APPROACH - ONLY AN IN-ARRAY SWAP IS OCCURING HENCE NO DUPLICATION OF DATA IS BEING MADE
+                                    THERE ARE 3 TEMPORARY VARIABLES BUT THEY DON'T DEPEND ON THE LIST SIZE(minIndex, i and j)
+                                    The SPACE COMPLEXITY DOESN'T INCREASE
+
+
+
+"""
+
 
 
