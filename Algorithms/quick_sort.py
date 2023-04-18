@@ -26,3 +26,13 @@ TIME COMPLEXITY:
 _____________________________
 """
 
+#STEPS TO PERFORM A QUICKSORT
+
+""" 
+1. 
+
+
+
+"""
+
+
